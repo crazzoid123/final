@@ -12,7 +12,11 @@ $('.carousel').on('slid.bs.carousel', function () {
   const activeSlide = $(this).find('.carousel-item.active');
   // Get the index of the active slide
   const activeSlideIndex = $(activeSlide).index();
+
+  // The function that handles the click event
+
   // Output the active slide index to the console or use it as needed
+  console.log('Active slide ID:', activeSlideIndex);
+  console.log('item is now:',activeSlideIndex);
 });
-console.log('Active slide ID:', activeSlideIndex);
-console.log('item is now:',activeSlideIndex);
+
