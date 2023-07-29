@@ -2,9 +2,9 @@
 let tg = window.Telegram.WebApp;
 tg.expand();
 
-let btn1 = document.getElementById('btn1');
-let btn2 = document.getElementById('btn2');
-let btn3 = document.getElementById('btn3');
+const girl1 = document.getElementById('girl1');
+const girl2 = document.getElementById('girl2');
+
 
 // Add an event listener to the carousel when it slides
 $('.carousel').on('slid.bs.carousel', function () {
@@ -13,7 +13,6 @@ $('.carousel').on('slid.bs.carousel', function () {
   // Get the index of the active slide
   const activeSlideIndex = $(activeSlide).index();
   // Output the active slide index to the console or use it as needed
-  console.log('Active slide ID:', activeSlideIndex);
-  console.log('item is now:',activeSlideIndex);
 });
-
+console.log('Active slide ID:', activeSlideIndex);
+console.log('item is now:',activeSlideIndex);
